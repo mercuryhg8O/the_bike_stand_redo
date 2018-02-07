@@ -1,0 +1,14 @@
+.sidebar {
+    float: right;
+    clear: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sideImages {
+    disply: inline;
+}
+
+.sideLinks {
+    text-align: right;
+}
