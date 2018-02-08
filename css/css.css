@@ -1,14 +1,19 @@
+body {
+    
+}
+
 .sidebar {
     float: right;
     clear: left;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 25px;
+    box-shadow: black;
 }
 
 .sideImages {
-    disply: inline;
+    margin-left: 25%;
 }
 
 .sideLinks {
-    text-align: right;
+    
 }
