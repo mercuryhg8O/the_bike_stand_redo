@@ -3,12 +3,43 @@ body {
 }
 
 .sidebar {
+    position: fixed;
     float: right;
-    clear: left;
-    padding-left: 10px;
-    padding-right: 25px;
-    box-shadow: black;
+    margin-left: 75%;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    overflow: scroll;
     height: 100%;
+    width: 25%;
+    background-color: white;
+    border-left: inset;
+}
+
+#body {
+    width: 72%;
+}
+
+div.logo {
+    position: fixed;
+    float: right;
+    margin-left: 75%;
+    top: 0px;
+    right: 0px;
+    /*padding: 10px;*/
+    /*overflow: scroll;*/
+    height: 170px;
+    width: 25%;
+    background-color: white;
+    /*border-left: inset;*/
+    /*margin-top: 170px;*/
+}
+
+img.logo {
+    /*position: fixed;*/
+    /*top: 10px;*/
+    /*right: 7%;*/
+    /*z-index: 10;*/
 }
 
 .sideImages {
