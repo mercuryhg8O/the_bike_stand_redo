@@ -14,6 +14,7 @@ body {
     width: 25%;
     background-color: white;
     border-left: inset;
+    /* display: none; */
 }
 
 #body {
@@ -29,17 +30,17 @@ div.logo {
     /*padding: 10px;*/
     /*overflow: scroll;*/
     height: 170px;
-    width: 25%;
+    width: 26%;
     background-color: white;
     /*border-left: inset;*/
     /*margin-top: 170px;*/
 }
 
 img.logo {
-    /*position: fixed;*/
-    /*top: 10px;*/
-    /*right: 7%;*/
-    /*z-index: 10;*/
+    position: fixed;
+    top: 10px;
+    right: 7%;
+    z-index: 10;
 }
 
 .sideImages {
@@ -47,12 +48,15 @@ img.logo {
 }
 
 .sideLinks {
-    
+
 }
 
 h1, h2, h3, h4, h5, h5 {
-    font-family: 'Faster One', cursive;
-    letter-spacing: 0.5em;
+    /* font-family: 'Faster One', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Fredoka One', cursive; */
+    font-family: 'Hammersmith One', sans-serif;
+    /* letter-spacing: 0.5em; */
 }
 
 h1 {
@@ -61,12 +65,34 @@ h1 {
 
 h3 {
     font-size: 150%;
+    margin: auto;
 }
 
 p {
     font-family: 'Yatra One', sans-serif;
+    font-family: 'Slabo 27px', serif;
 }
 
 .centerIMG {
     margin: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
