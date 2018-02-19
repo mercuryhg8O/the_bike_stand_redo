@@ -11,14 +11,19 @@ body {
     padding: 10px;
     overflow: scroll;
     height: 100%;
-    width: 25%;
+    width: 20%;
     background-color: white;
     border-left: inset;
     /* display: none; */
 }
 
 #body {
+    margin-left: 3%;
     width: 72%;
+}
+
+.largetext {
+  text-align: justify;
 }
 
 div.logo {
@@ -30,7 +35,7 @@ div.logo {
     /*padding: 10px;*/
     /*overflow: scroll;*/
     height: 170px;
-    width: 26%;
+    width: 21%;
     background-color: white;
     /*border-left: inset;*/
     /*margin-top: 170px;*/
@@ -39,12 +44,12 @@ div.logo {
 img.logo {
     position: fixed;
     top: 10px;
-    right: 7%;
+    right: 5%;
     z-index: 10;
 }
 
 .sideImages {
-    margin-left: 25%;
+    margin-left: 10%;
 }
 
 .sideLinks {
