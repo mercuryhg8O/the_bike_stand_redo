@@ -22,6 +22,11 @@ body {
     width: 72%;
 }
 
+p {
+  /* I want to indent the paragraphs. Also, the word "indent" and the word
+  "word" register as something, so that's interesting. */
+}
+
 .largetext {
   text-align: justify;
 }
