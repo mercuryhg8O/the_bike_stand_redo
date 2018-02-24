@@ -16,7 +16,7 @@ body {
     overflow: scroll;
     height: 100%;
     width: 20%;
-    background-color: #d3e3ff;
+    background-color: white;
     border-left: inset;
     /*border-left: 10px;*/
     border-color: white;
@@ -75,7 +75,8 @@ div.logo {
     /*overflow: scroll;*/
     height: 170px;
     width: 21%;
-    background-color: #d3e3ff;
+    background-color: white;
+    /* #d3e3ff */
     /*border-left: inset;*/
     /*margin-top: 170px;*/
 }
