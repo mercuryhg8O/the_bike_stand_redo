@@ -1,5 +1,9 @@
 body {
     background-color: #b3caef;
+    /*background-color: #3d6aff;*/
+    /*background-color: #27376d;*/
+    /*background-color: #0c2247;*/
+    /*color: white;*/
 }
 
 .sidebar {
@@ -12,7 +16,7 @@ body {
     overflow: scroll;
     height: 100%;
     width: 20%;
-    background-color: white;
+    background-color: #d3e3ff;
     border-left: inset;
     /*border-left: 10px;*/
     border-color: white;
@@ -44,6 +48,7 @@ button:hover{
     color: #007177;
     /*border-color: #007177;*/
     box-shadow: inset 0px 0px 5px 5px #007177;
+    border: none;
 }
 
 #body {
@@ -57,7 +62,7 @@ p {
 }
 
 .largetext {
-  text-align: justify;
+    text-align: justify;
 }
 
 div.logo {
@@ -70,7 +75,7 @@ div.logo {
     /*overflow: scroll;*/
     height: 170px;
     width: 21%;
-    background-color: white;
+    background-color: #d3e3ff;
     /*border-left: inset;*/
     /*margin-top: 170px;*/
 }
