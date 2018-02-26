@@ -1,9 +1,9 @@
 body {
     background-color: #b3caef;
-    /*background-color: #3d6aff;*/
-    /*background-color: #27376d;*/
-    /*background-color: #0c2247;*/
-    /*color: white;*/
+}
+
+p {
+    font-family: sans-serif;
 }
 
 .sidebar {
@@ -47,6 +47,7 @@ a {
     border: 0.5px solid rgba(255, 255, 255, 0.5);
 	transition-duration: 0.05s;
 	border-radius: 100px;
+	outline: none;
 }
 
 button:hover.basic-button{
@@ -61,11 +62,6 @@ button:hover.basic-button{
 #body {
     margin-left: 3%;
     width: 72%;
-}
-
-p {
-  /* I want to indent the paragraphs. Also, the word "indent" and the word
-  "word" register as something, so that's interesting. */
 }
 
 .largetext {
@@ -188,6 +184,7 @@ span.back-btn {
     position: fixed;
     bottom: 20px;
     left: 30px;
+    outline: none;
 }
 
 button.back-btn {
@@ -204,6 +201,7 @@ button.back-btn {
     border: 0.5px solid rgba(255, 255, 255, 0.5);
 	transition-duration: 0.05s;
 	border-radius: 100px;
+	outline: none;
 }
 
 button:hover.back-btn {
